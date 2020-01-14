@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <!-- this links the style section-->
+    <link rel="stylesheet" href="/style4.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- the name of the projects-->
+    <p>Change the stop light.</p>
+    <!-- the first button and its image-->
+    <button
+      onclick="document.getElementById('myImage').src='https://cdn.glitch.com/43f83ec0-44a7-423b-bf93-56d8a166ee16%2Fred.png?v=1570454393004'"
+    >
+      Red light
+    </button>
+    <!-- the second image -->
+    <img
+      id="myImage"
+      src="https://cdn.glitch.com/43f83ec0-44a7-423b-bf93-56d8a166ee16%2Fgreen.png?v=1570454407829"
+      style="width:200px"
+    />
+    <!-- the second button and it's image-->
+    <button
+      onclick="document.getElementById('myImage').src='https://cdn.glitch.com/43f83ec0-44a7-423b-bf93-56d8a166ee16%2Fgreen.png?v=1570454407829'"
+    >
+      green light
+    </button>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
