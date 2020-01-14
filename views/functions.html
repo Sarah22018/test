@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      <!-- these functions determin the text that apearsa after a button has been clicked -->
+
+            function myFunction() {
+      document.getElementById("demo").innerHTML = "Paragraph changed.";
+      }
+            function myFunction2() {
+      document.getElementById("demo").innerHTML = "Paragraph Changed Again";
+      }
+            function myFunction3() {
+      document.getElementById("demo").innerHTML = "Paragraph";
+      }
+    </script>
+    <link rel="stylesheet" href="/style5.css" />
+  </head>
+  <body>
+    <h1>A Web Page</h1>
+    <p id="demo">A Paragraph</p>
+    <!-- these are the buttons you can click-->
+    <button type="button" onclick="myFunction()">Try it</button>
+    <button type="button" onclick="myFunction2()">Try it twice</button>
+    <button type="button" onclick="myFunction3()">Now bring it back</button>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
